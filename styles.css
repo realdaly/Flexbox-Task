@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-wrapper {
+  background-color: #1f2937;
+}
+
+/* Nav section  */
+
+.nav-wrapper {
+  padding: 0 100px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  cursor: pointer;
+}
+
+.link-wrapper {
+}
+
+.link-item {
+  text-decoration: none;
+}
+
+/* Hero section  */
+
+.hero-wrapper {
+  padding: 0 100px;
+  min-height: 500px;
+}
+
+.hero-text-large {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-text-small,
+.link-item {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-text-small {
+  padding-bottom: 10px;
+}
+
+.hero-text {
+}
+
+.hero-image-wrapper {
+}
+
+.hero-image {
+  width: 500px;
+  height: 300px;
+  background-color: gray;
+}
+
+.hero-button {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3882f6;
+  cursor: pointer;
+}
+
+/* Info section  */
+
+.info-wrapper {
+  min-height: 500px;
+  padding: 0 100px;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.cards-wrapper {
+}
+
+.card-item {
+  width: 250px;
+}
+
+.card-text {
+  padding: 10px 0;
+}
+
+.card-image {
+  border: 4px solid #3882f6;
+  border-radius: 10%;
+  width: 200px;
+  height: 180px;
+}
+
+/* Contact section */
+.contact-wrapper {
+  padding: 0 100px;
+  min-height: 250px;
+}
+
+.contact-background {
+  min-height: 150px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.contact-large-text {
+  font-size: 36px;
+  color: #f9faf8;
+}
+
+.contact-small-text {
+  color: #e5e7eb;
+}
+
+.contact-button {
+  cursor: pointer;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #3882f6;
+}
+
+/* Footer section */
+footer {
+  min-height: 50px;
+  text-align: center;
+  background-color: #1f2937;
+  color: white;
+  font-weight: bolder;
+}
